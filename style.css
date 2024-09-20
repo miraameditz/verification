@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    box-sizing: border-box
+}
+
+body {
+    background-color:  #121212;
+}
+
+button , a{
+    cursor: pointer;
+}
+
+.login {
+    margin: 10% auto;
+    width: 40%;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px;
+    border-radius: 20px;
+    padding: 40px 20px;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin: 30px 0px;
+    justify-content: space-between;
+}
+
+.flex-container input{
+    width: 70%;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: 1px solid #ff0037;
+    outline: none;
+}
+
+.flex-container a {
+    width: 30%;
+    background-color: #ff0037;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 100px;
+    border: 1px solid #ff0037;
+    transition: .3s;
+}
+
+.flex-container a:hover{
+    background-color: transparent;
+    color: #000;
+}
+
+.VerifyForm {
+    padding: 30px 50px;
+    box-shadow: 1px 1px 5px #000;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.green {
+    background-color: green;
+    padding: 20px;
+    color: #fff;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.red {
+    background-color: red;
+    padding: 20px;
+    color: #fff;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}

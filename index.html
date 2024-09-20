@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body onclick="reload()">
+    <div class="login">
+        <h1>Login And Check Your Identify</h1>
+
+        <div class="flex-container">
+            <input type="text" id="userName" placeholder="Enter Your Name">
+            <a onclick="login()" >Login</a>
+        </div>
+
+        <div class="flex-container">
+            <input type="text" id="input" placeholder="Enter Your Name">
+            <a onclick="checkName()" >Check</a>
+        </div>
+        <div id="PopUp"></div>
+    </div>
+
+    <script src="App.js"></script>
+</body>
+
+</html>
